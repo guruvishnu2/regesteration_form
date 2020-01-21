@@ -24,7 +24,7 @@ def contact():
 
       else:
 
-         return render_template('success.html')
+         return "Form Submitted"
 
       elif request.method == 'GET':
 
